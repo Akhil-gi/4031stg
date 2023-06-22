@@ -20,7 +20,7 @@ global:
     enabled: false # Set to true if using "httpS" urls. TLS certificates must be generated for the above URL
 
   certManager:
-    installed: false # Set to true if you have cert-manager installed in the cluster, the URL must be accessible from the internet
+    installed: true # Set to true if you have cert-manager installed in the cluster, the URL must be accessible from the internet
 
   ## nginx ingress objects are created if set to true. Set to false if using LoadBalancer or any other ingress
   ## The cluster MUST have nginx ingress controller already installed
